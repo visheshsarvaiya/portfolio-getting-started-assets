@@ -245,8 +245,6 @@ h1 {
 	} */
 
 	.hero-yellow {
-    flex: 1;
-    background-color: var(--yellow);
     border-radius: 30px;
     padding: 0;
     display: flex;
@@ -430,9 +428,9 @@ h3 {
 	.bento-grid {
 		display:grid;
 		grid-gap:30px;
-		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-		height:960px;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		height:500px;
 		@media(max-width:1024px){
 			grid-template-rows: repeat(8, 1fr);
 		}
